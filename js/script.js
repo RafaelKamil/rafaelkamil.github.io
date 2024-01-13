@@ -12,7 +12,7 @@ let scalerArticles = [{
     'title': 'Forensic and security research',
     'pubDate': 'December 24, 2021',
     'content': 'This assignment explores tools for efficient forensic analysis. Dcfldd ensures disk integrity, extracting key information. Bulk-extractor uncovers hidden data like email addresses and credit card numbers. The aim is to gather evidence systematically.',
-    'thumbnail': '',
+    'thumbnail': './images/ff.png',
 }];
 
 scalerArticles.sort(function(a, b) {
@@ -30,12 +30,11 @@ const getArticleDOM = function(article) {
 
     const imgTag = article.thumbnail.length > 0 ? `<img src="${article.thumbnail}" alt="${article.title}">` : "";
 
-    return `<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 blog box no-border no-padding">
+    return `<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 blog box no-border no-padding">
                 <a href="${articleLink}" target="_blank">
                     ${imgTag}
                     <div class="content">
                         <h5>${article.title}</h5>
-                        <p class="pub-date">${pubDate}</p>
                         <p class="description">${content}</p>
                     </div>
                 </a>
@@ -75,7 +74,6 @@ const renderScalerArticles = function() {
 }
 
 $(function() {
-    $("body").tooltip({ selector: '[data-bs-toggle=tooltip]' });
 
 
     $(".dropdown-menu li a").on('click', function() {
