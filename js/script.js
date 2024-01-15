@@ -21,7 +21,7 @@ let scalerArticles = [{
     'content': 'A demostration of implementing cloud architecture. Designed and built Cloud Architecture which offers scalability ensuring that website effortlessly scales to meet growing demands, accommodating increased traffic and evolving user needs without the limitations of traditional infrastructure.',
     'thumbnail': 'https://medium.com/@s10192797/cloud-architecture-and-technologies-setup-927aa8bb0504',
 },{
-    'link': 'https://github.com/iMaybeCanBreathe/Helpderly',
+    'link': 'https://medium.com/@rafaelkamil/helpderly-project-7817968104a3',
     'title': 'Helpderly Project',
     'pubDate': 'December 24, 2021',
     'content': 'Our platform connects volunteers with impactful events while providing an easy way for the elderly to seek assistance. Simplifying registration for volunteers and requests for support, we aim to build a community where compassion knows no boundaries.',
@@ -32,7 +32,15 @@ let scalerArticles = [{
     'pubDate': 'December 24, 2021',
     'content': 'The Smart Clothes Rack with Rain Detection project combines Internet of Things (IoT) technologies to create an innovative solution for protecting clothes from rain and moisture. The system utilizes a Raspberry Pi as the central processing unit, a water sensor for rain detection, and a retract mechanism for automatically adjusting the clothes rack.',
     'thumbnail': 'https://medium.com/@s10192797/smart-rack-project-36a0c63ab3e0',
-}]
+},{
+    'link': 'https://jasonleequansheng.wixsite.com/website-1',
+    'title': 'Scratch Video Tutorial',
+    'pubDate': 'December 24, 2021',
+    'content': 'This scratch tutorial was made to allow mentally challenged student to learn as well :) Sharing is caring',
+    'thumbnail': 'https://jasonleequansheng.wixsite.com/website-1',
+},
+
+]
 
 ;
 
